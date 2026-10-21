@@ -1,0 +1,16 @@
+.banner{padding:70px 8%;color:#fff;background:linear-gradient(90deg,#0f172acc,#4f46e599),url(https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1920&q=80) center/cover}
+.banner h1{font-size:2.4rem}.banner p{opacity:.9;margin-top:6px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;margin-top:-45px;position:relative}
+.kpis b{font-size:2rem;color:var(--p);display:block}.kpis span{color:var(--m)}
+.bar{height:10px;background:#e5e7eb;border-radius:10px;overflow:hidden;margin-top:8px}
+.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--p),var(--p2));transition:1.2s}
+.paths{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px}
+.path{position:relative;height:260px;border-radius:var(--r);overflow:hidden;color:#fff;cursor:pointer;box-shadow:0 4px 18px #0002}
+.path img{width:100%;height:100%;object-fit:cover;transition:.5s;background:linear-gradient(135deg,var(--p),var(--p2))}
+.path:hover img{transform:scale(1.1)}
+.path div{position:absolute;inset:auto 0 0;padding:16px;background:linear-gradient(transparent,#000c)}
+.path small{opacity:.85}
+.two{display:grid;grid-template-columns:2fr 1fr;gap:22px}
+.skill{margin-bottom:14px}.skill div{display:flex;justify-content:space-between;font-size:.9rem}
+.quote{font-style:italic;color:var(--m)}
+@media(max-width:800px){.two{grid-template-columns:1fr}}

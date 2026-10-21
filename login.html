@@ -1,0 +1,7 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Login | CareerCraft</title><link rel="stylesheet" href="global.css"><link rel="stylesheet" href="auth.css"></head><body><nav id="nav"></nav>
+<main class="auth"><div class="side"><h1>Welcome to CareerCraft</h1><p>Sign in to access your dashboard, jobs and resume builder.</p></div>
+<div class="box"><div class="card"><div class="tabs"><button class="tab on" data-t="l">Login</button><button class="tab" data-t="r">Register</button></div>
+<form id="loginForm"><label>Email</label><input name="email" type="email" required><label>Password</label><input name="pass" type="password" required><button class="btn">Login</button></form>
+<form id="regForm" hidden><label>Full Name</label><input name="name" required><label>Email</label><input name="email" type="email" required><label>Password (6+ chars)</label><input name="pass" type="password" required><label>Career Goal</label><select name="goal"><option>Software Developer</option><option>Designer</option><option>Business Analyst</option><option>Healthcare</option></select><button class="btn">Create Account</button></form>
+<p id="msg"></p></div></div></main>
+<script src="auth.js"></script></body></html>
